@@ -1,0 +1,73 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 477, Failures: 12, Errors: 0, Skipped: 465, Time elapsed: 1.659 s <<< FAILURE! - in TestSuite
+setUp(dataBaseSearch.TestSearchPage)  Time elapsed: 0.69 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(HomePage.TestSignInUser)  Time elapsed: 0.691 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(EBayFashionPage.TestCategory)  Time elapsed: 0.697 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(EBayFashionPage.TestExploreInterests)  Time elapsed: 0.707 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(EBayFashionPage.TestSalesEvents)  Time elapsed: 0.713 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(EBayFashionPage.TestSellOnEbay)  Time elapsed: 0.716 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(EBayFashionPage.TestTopBrands)  Time elapsed: 0.719 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(EBayMotorsPage.TestEBayMotors)  Time elapsed: 0.739 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(HomePage.TestPageElement)  Time elapsed: 0.762 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(HomePage.TestRegisterUser)  Time elapsed: 0.773 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+setUp(HomePage.TestSearchEBay)  Time elapsed: 0.775 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+generateReport(dataBaseSearch.TestSearchPage)  Time elapsed: 0.931 s  <<< FAILURE!
+java.lang.NullPointerException
+

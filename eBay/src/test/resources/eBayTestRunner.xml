@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="eBay Automation Script " parallel="false">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="saucelabs"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="browserVersion" value="62.0"/>
+    <parameter name="url" value="https://www.ebay.com/"/>
+    <test name = "Test">
+        <classes>
+            <!--  <class name="HomePage.TestPageElement"/>
+          <class name="HomePage.TestSearchEBay"/>
+            <class name="HomePage.TestRegisterUser"/>
+            <class name="HomePage.TestSignInUser"/>
+            <class name="EBayMotorsPage.TestEBayMotors"/>
+            <class name="EBayFashionPage.TestCategory"/>
+            <class name="EBayFashionPage.TestExploreInterests"/>
+            <class name="EBayFashionPage.TestSalesEvents"/>
+            <class name="EBayFashionPage.TestSellOnEbay"/>
+            <class name="EBayFashionPage.TestTopBrands"/>
+            <class name="dataBaseSearch.TestSearchPage"/>
+           <class name="DataDrivenDataReader.TestExcelSearch"/>
+            <class name="EBayElectronicsPage.TestShopByCategory"/>-->
+            <class name="EBayElectronicsPage.TestElectronicsSalesEvents"/>
+            <!--<class name="GoogleSheetReader.TestGoogleSheetPages"/>
+           <class name="ReadText.TestReadTextDropDown"/>
+           <class name="GoogleSheetReader.TestGoogleSheet"/>
+           <class name="SeleniumCheckOutPage.TestItemInCart"/>
+           <class name="SeleniumCheckOutPage.TestItemCheckOut"/>
+          <class name="KeyWordDrivenPage.TestKeyWordDriven"/>-->
+        </classes>
+    </test>
+
+</suite>

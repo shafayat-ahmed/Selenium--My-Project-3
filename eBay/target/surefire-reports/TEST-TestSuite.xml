@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.659" tests="477" errors="0" skipped="465" failures="12">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ahmed\Desktop\My-Project3\eBay\target\test-classes;C:\Users\ahmed\Desktop\My-Project3\eBay\target\classes;C:\Users\ahmed\.m2\repository\My-Project3\Generic\1.0-SNAPSHOT\Generic-1.0-SNAPSHOT.jar;C:\Users\ahmed\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\ahmed\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ahmed\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\ahmed\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ahmed\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ahmed\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ahmed\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ahmed\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ahmed\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ahmed\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ahmed\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ahmed\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ahmed\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ahmed\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\ahmed\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\ahmed\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\ahmed\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-server\3.14.0\selenium-server-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\ahmed\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\Users\ahmed\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ahmed\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\ahmed\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.30\htmlunit-2.30.jar;C:\Users\ahmed\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\ahmed\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.0.0\htmlunit-cssparser-1.0.0.jar;C:\Users\ahmed\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.30\neko-htmlunit-2.30.jar;C:\Users\ahmed\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\ahmed\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.8.v20180619\jetty-repacked-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20180619\jetty-client-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20180619\jetty-http-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20180619\jetty-io-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20180619\jetty-util-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20180619\jetty-xml-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.30.0\htmlunit-driver-2.30.0.jar;C:\Users\ahmed\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20180619\websocket-api-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20180619\websocket-client-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20180619\websocket-common-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ahmed\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ahmed\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ahmed\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ahmed\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\ahmed\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\ahmed\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ahmed\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\ahmed\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\ahmed\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\ahmed\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\ahmed\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\ahmed\.m2\repository\com\google\api-client\google-api-client\1.23.0\google-api-client-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\google\oauth-client\google-oauth-client\1.23.0\google-oauth-client-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\google\http-client\google-http-client\1.23.0\google-http-client-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\google\http-client\google-http-client-jackson2\1.23.0\google-http-client-jackson2-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.1.3\jackson-core-2.1.3.jar;C:\Users\ahmed\.m2\repository\com\google\guava\guava-jdk5\17.0\guava-jdk5-17.0.jar;C:\Users\ahmed\.m2\repository\com\google\oauth-client\google-oauth-client-jetty\1.23.0\google-oauth-client-jetty-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\google\oauth-client\google-oauth-client-java6\1.23.0\google-oauth-client-java6-1.23.0.jar;C:\Users\ahmed\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\ahmed\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\ahmed\.m2\repository\org\mortbay\jetty\servlet-api\2.5-20081211\servlet-api-2.5-20081211.jar;C:\Users\ahmed\.m2\repository\com\google\apis\google-api-services-sheets\v4-rev498-1.23.0\google-api-services-sheets-v4-rev498-1.23.0.jar;C:\Users\ahmed\.m2\repository\org\mongodb\mongo-java-driver\3.6.0-beta1\mongo-java-driver-3.6.0-beta1.jar;C:\Users\ahmed\.m2\repository\mysql\mysql-connector-java\8.0.13\mysql-connector-java-8.0.13.jar;C:\Users\ahmed\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\ahmed\.m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\Users\ahmed\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ahmed\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ahmed\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ahmed\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\ahmed\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\ahmed\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\ahmed\.m2\repository\com\aventstack\extentreports\3.0.7\extentreports-3.0.7.jar;C:\Users\ahmed\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\ahmed\.m2\repository\io\rest-assured\rest-assured\3.0.6\rest-assured-3.0.6.jar;C:\Users\ahmed\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\ahmed\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\ahmed\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ahmed\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ahmed\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ahmed\.m2\repository\io\rest-assured\json-path\3.0.6\json-path-3.0.6.jar;C:\Users\ahmed\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\ahmed\.m2\repository\io\rest-assured\rest-assured-common\3.0.6\rest-assured-common-3.0.6.jar;C:\Users\ahmed\.m2\repository\io\rest-assured\xml-path\3.0.6\xml-path-3.0.6.jar;C:\Users\ahmed\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ahmed\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\ahmed\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\ahmed\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\ahmed\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ahmed\AppData\Local\Temp\surefire11593114636903721407\surefirebooter757931831464162641.jar C:\Users\ahmed\AppData\Local\Temp\surefire11593114636903721407 2019-01-10T22-38-24_111-jvmRun1 surefire812514194140799317tmp surefire_09680238202671129858tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ahmed\Desktop\My-Project3\eBay\target\test-classes;C:\Users\ahmed\Desktop\My-Project3\eBay\target\classes;C:\Users\ahmed\.m2\repository\My-Project3\Generic\1.0-SNAPSHOT\Generic-1.0-SNAPSHOT.jar;C:\Users\ahmed\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\ahmed\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ahmed\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\ahmed\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ahmed\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ahmed\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ahmed\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ahmed\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ahmed\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ahmed\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ahmed\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ahmed\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ahmed\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ahmed\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\ahmed\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\ahmed\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\ahmed\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\selenium-server\3.14.0\selenium-server-3.14.0.jar;C:\Users\ahmed\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\ahmed\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\Users\ahmed\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ahmed\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\ahmed\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.30\htmlunit-2.30.jar;C:\Users\ahmed\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\ahmed\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.0.0\htmlunit-cssparser-1.0.0.jar;C:\Users\ahmed\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.30\neko-htmlunit-2.30.jar;C:\Users\ahmed\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\ahmed\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.8.v20180619\jetty-repacked-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20180619\jetty-client-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20180619\jetty-http-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20180619\jetty-io-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20180619\jetty-util-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20180619\jetty-xml-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.30.0\htmlunit-driver-2.30.0.jar;C:\Users\ahmed\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20180619\websocket-api-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20180619\websocket-client-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20180619\websocket-common-9.4.8.v20180619.jar;C:\Users\ahmed\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ahmed\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ahmed\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ahmed\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ahmed\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\ahmed\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\ahmed\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ahmed\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\ahmed\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\ahmed\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\ahmed\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\ahmed\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\ahmed\.m2\repository\com\google\api-client\google-api-client\1.23.0\google-api-client-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\google\oauth-client\google-oauth-client\1.23.0\google-oauth-client-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\google\http-client\google-http-client\1.23.0\google-http-client-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\google\http-client\google-http-client-jackson2\1.23.0\google-http-client-jackson2-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.1.3\jackson-core-2.1.3.jar;C:\Users\ahmed\.m2\repository\com\google\guava\guava-jdk5\17.0\guava-jdk5-17.0.jar;C:\Users\ahmed\.m2\repository\com\google\oauth-client\google-oauth-client-jetty\1.23.0\google-oauth-client-jetty-1.23.0.jar;C:\Users\ahmed\.m2\repository\com\google\oauth-client\google-oauth-client-java6\1.23.0\google-oauth-client-java6-1.23.0.jar;C:\Users\ahmed\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\ahmed\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\ahmed\.m2\repository\org\mortbay\jetty\servlet-api\2.5-20081211\servlet-api-2.5-20081211.jar;C:\Users\ahmed\.m2\repository\com\google\apis\google-api-services-sheets\v4-rev498-1.23.0\google-api-services-sheets-v4-rev498-1.23.0.jar;C:\Users\ahmed\.m2\repository\org\mongodb\mongo-java-driver\3.6.0-beta1\mongo-java-driver-3.6.0-beta1.jar;C:\Users\ahmed\.m2\repository\mysql\mysql-connector-java\8.0.13\mysql-connector-java-8.0.13.jar;C:\Users\ahmed\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\ahmed\.m2\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;C:\Users\ahmed\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ahmed\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ahmed\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ahmed\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\ahmed\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\ahmed\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\ahmed\.m2\repository\com\aventstack\extentreports\3.0.7\extentreports-3.0.7.jar;C:\Users\ahmed\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\ahmed\.m2\repository\io\rest-assured\rest-assured\3.0.6\rest-assured-3.0.6.jar;C:\Users\ahmed\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\ahmed\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\ahmed\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ahmed\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ahmed\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ahmed\.m2\repository\io\rest-assured\json-path\3.0.6\json-path-3.0.6.jar;C:\Users\ahmed\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\ahmed\.m2\repository\io\rest-assured\rest-assured-common\3.0.6\rest-assured-common-3.0.6.jar;C:\Users\ahmed\.m2\repository\io\rest-assured\xml-path\3.0.6\xml-path-3.0.6.jar;C:\Users\ahmed\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ahmed\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\ahmed\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\ahmed\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\ahmed\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ahmed"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ahmed\Desktop\My-Project3\eBay"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ahmed\AppData\Local\Temp\surefire11593114636903721407\surefirebooter757931831464162641.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="user.name" value="ahmed"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="C:\Users\ahmed\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ahmed\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.3"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="user.dir" value="C:\Users\ahmed\Desktop\My-Project3\eBay"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\apache-maven-3.6.0\bin;C:\Users\ahmed\AppData\Local\Microsoft\WindowsApps;C:\Users\ahmed\AppData\Local\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\apache-maven-3.6.0\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="setUp" classname="dataBaseSearch.TestSearchPage" time="0.69">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="startExtent" classname="dataBaseSearch.TestSearchPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSearchPage" classname="dataBaseSearch.TestSearchPage" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="dataBaseSearch.TestSearchPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestSignInUser" time="0.691">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testFacebookButtonFromSignIn" classname="HomePage.TestSignInUser" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestSignInUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGoogleButtonFromSignIn" classname="HomePage.TestSignInUser" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testSignIn" classname="HomePage.TestSignInUser" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testSignInAccount" classname="HomePage.TestSignInUser" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0.697">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClickViewJewelry" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testClickViewShoes" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewBeauty" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewCultureEthnicClothing" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewHandbagAccessories" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewHealth" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewKidsBaby" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewLogo" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMensClothing" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewSportsFanClothing" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewVintage" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewWatches" classname="EBayFashionPage.TestCategory" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestExploreInterests" time="0.707">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewMensBasics" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewMensGrooming" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMensStreetStyle" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewWomensBasic" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewWomensHeadToToeDenim" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewWomensLuxeBags" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewWomensTrends" classname="EBayFashionPage.TestExploreInterests" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestSalesEvents" time="0.713">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewFashionFIxSignUp" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewWomensTrends" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testsViewFashionDeals" classname="EBayFashionPage.TestSalesEvents" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestSellOnEbay" time="0.716">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestSellOnEbay" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestSellOnEbay" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestSellOnEbay" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewConsignItem" classname="EBayFashionPage.TestSellOnEbay" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestSellOnEbay" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestSellOnEbay" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewSellDirect" classname="EBayFashionPage.TestSellOnEbay" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0.719">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewAdidas" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewAirJordan" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewAnthropologie" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewCalvinKlein" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewChanel" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewCoach" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewDavidYurman" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewFreePeople" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewGucci" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewInvicta" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewJCrew" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewLevis" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewLouisVuitton" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewLuluMelon" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMadeWell" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMichaelKors" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewNike" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewOmega" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewRalphLauren" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewRayBan" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewRolex" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewSupreme" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewToryBurch" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewUnderArmour" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewVictoriaSecret" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewZara" classname="EBayFashionPage.TestTopBrands" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0.739">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ViewElectricHybrid" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testViewAllParts" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewAtvUtvParts" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewAutoMativeToolSupply" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewBlog" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewBoat" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewCarCare" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewCarTruck" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewCarTruckParts" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewClassic" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewCollectorCar" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewCommercialTruckParts" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewDigitalManual" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewExotic" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewFindParts" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMotorCycle" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMotorCycleParts" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMotorsDailyDeals" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMotorsSalesEvents" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewOther" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewPartsHub" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewPowerSport" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewSellParts" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewSellVehicle" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewSendSuggestion" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewShipTires" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewTellWhatYouThink" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewVehiclesSalesHub" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewVirtualTech" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewWheelParts" classname="EBayMotorsPage.TestEBayMotors" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0.762">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testActiveWearMen" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestPageElement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testActiveWearWomen" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testBusinessIndustrial" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testCollectible" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testDailyDealsAll" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testDeals" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testEditorsPick" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testElectronics" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testFeaturedSale" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testFindTheBeat" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testFuelYourFitness" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testGearUp" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testHelpContact" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testJuiceIt" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testLoveYourLook" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testMusic" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testPlayPause" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testSellHot" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testTrackProgress" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testTrendingOnEbay" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testUnderTen" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewDailyDeals" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewFashion" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewHome" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewHomeGarden" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewLogo" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewMotors" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewSaved" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewToys" classname="HomePage.TestPageElement" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestRegisterUser" time="0.773">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreateAccount" classname="HomePage.TestRegisterUser" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestRegisterUser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testFacebookContinueButton" classname="HomePage.TestRegisterUser" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testGoogleContinueButton" classname="HomePage.TestRegisterUser" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="testViewRegister" classname="HomePage.TestRegisterUser" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="HomePage.TestSearchEBay" time="0.775">
+    <failure message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="startExtent" classname="HomePage.TestSearchEBay" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchItems" classname="HomePage.TestSearchEBay" time="0">
+    <skipped message="&#10;Parameter &apos;url&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined&#10;"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="HomePage.TestSearchEBay" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="generateReport" classname="dataBaseSearch.TestSearchPage" time="0.931">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+</testsuite>

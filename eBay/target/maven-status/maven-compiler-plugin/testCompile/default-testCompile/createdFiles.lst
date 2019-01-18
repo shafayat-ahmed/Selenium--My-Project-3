@@ -1,0 +1,12 @@
+EBayFashionPage\TestExploreInterests.class
+EBayMotorsPage\TestEBayMotors.class
+HomePage\TestPageElement.class
+HomePage\TestSearchEBay.class
+dataBaseSearch\TestSearchPage.class
+HomePage\TestSignInUser.class
+EBayFashionPage\TestSalesEvents.class
+EBayFashionPage\TestCategory.class
+EBayFashionPage\TestTopBrands.class
+EBayFashionPage\TestSellOnEbay.class
+HomePage\TestRegisterUser.class
+HomePage\TestSearchItem.class

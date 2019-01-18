@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="EBayFashionPage.TestSalesEvents">
+        <methods>
+          <include name="testViewFashionFIxSignUp"/>
+          <include name="testViewWomensTrends"/>
+          <include name="testsViewFashionDeals"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- EBayFashionPage.TestSalesEvents -->
+      <class name="EBayFashionPage.TestExploreInterests">
+        <methods>
+          <include name="testViewMensBasics"/>
+          <include name="testViewWomensLuxeBags"/>
+          <include name="testViewWomensTrends"/>
+          <include name="testViewMensGrooming"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testViewMensStreetStyle"/>
+          <include name="generateReport"/>
+          <include name="testViewWomensHeadToToeDenim"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="testViewWomensBasic"/>
+        </methods>
+      </class> <!-- EBayFashionPage.TestExploreInterests -->
+      <class name="EBayFashionPage.TestCategory">
+        <methods>
+          <include name="testViewHandbagAccessories"/>
+          <include name="testViewLogo"/>
+          <include name="testViewKidsBaby"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testViewSportsFanClothing"/>
+          <include name="testViewHealth"/>
+          <include name="extentSetup"/>
+          <include name="testViewBeauty"/>
+          <include name="startExtent"/>
+          <include name="testViewWatches"/>
+          <include name="testClickViewJewelry"/>
+          <include name="testViewMensClothing"/>
+          <include name="testViewVintage"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="testClickViewShoes"/>
+          <include name="testViewCultureEthnicClothing"/>
+        </methods>
+      </class> <!-- EBayFashionPage.TestCategory -->
+      <class name="EBayFashionPage.TestSellOnEbay">
+        <methods>
+          <include name="testViewSellDirect"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="testViewConsignItem"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- EBayFashionPage.TestSellOnEbay -->
+      <class name="HomePage.TestSearchEBay">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="searchItems"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- HomePage.TestSearchEBay -->
+      <class name="EBayFashionPage.TestTopBrands">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testViewMadeWell"/>
+          <include name="testViewMichaelKors"/>
+          <include name="extentSetup"/>
+          <include name="testViewJCrew"/>
+          <include name="testViewAdidas"/>
+          <include name="testViewToryBurch"/>
+          <include name="testViewFreePeople"/>
+          <include name="testViewLouisVuitton"/>
+          <include name="testViewNike"/>
+          <include name="testViewLuluMelon"/>
+          <include name="testViewLevis"/>
+          <include name="setUp"/>
+          <include name="testViewAnthropologie"/>
+          <include name="testViewGucci"/>
+          <include name="testViewCoach"/>
+          <include name="testViewAirJordan"/>
+          <include name="testViewRayBan"/>
+          <include name="testViewZara"/>
+          <include name="startExtent"/>
+          <include name="testViewSupreme"/>
+          <include name="testViewInvicta"/>
+          <include name="testViewCalvinKlein"/>
+          <include name="testViewDavidYurman"/>
+          <include name="testViewVictoriaSecret"/>
+          <include name="testViewOmega"/>
+          <include name="testViewRolex"/>
+          <include name="testViewUnderArmour"/>
+          <include name="generateReport"/>
+          <include name="testViewChanel"/>
+          <include name="testViewRalphLauren"/>
+        </methods>
+      </class> <!-- EBayFashionPage.TestTopBrands -->
+      <class name="HomePage.TestSignInUser">
+        <methods>
+          <include name="testSignIn"/>
+          <include name="testSignInAccount"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testGoogleButtonFromSignIn"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="testFacebookButtonFromSignIn"/>
+        </methods>
+      </class> <!-- HomePage.TestSignInUser -->
+      <class name="HomePage.TestPageElement">
+        <methods>
+          <include name="testDeals"/>
+          <include name="testJuiceIt"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testViewLogo"/>
+          <include name="testActiveWearWomen"/>
+          <include name="testFeaturedSale"/>
+          <include name="testCollectible"/>
+          <include name="testEditorsPick"/>
+          <include name="extentSetup"/>
+          <include name="testElectronics"/>
+          <include name="testTrackProgress"/>
+          <include name="testTrendingOnEbay"/>
+          <include name="testViewMotors"/>
+          <include name="testFuelYourFitness"/>
+          <include name="testSellHot"/>
+          <include name="testLoveYourLook"/>
+          <include name="setUp"/>
+          <include name="testActiveWearMen"/>
+          <include name="testFindTheBeat"/>
+          <include name="testViewDailyDeals"/>
+          <include name="testPlayPause"/>
+          <include name="testGearUp"/>
+          <include name="testMusic"/>
+          <include name="testViewToys"/>
+          <include name="startExtent"/>
+          <include name="testViewHomeGarden"/>
+          <include name="testViewHome"/>
+          <include name="testViewSaved"/>
+          <include name="testUnderTen"/>
+          <include name="testDailyDealsAll"/>
+          <include name="testViewFashion"/>
+          <include name="testHelpContact"/>
+          <include name="testBusinessIndustrial"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- HomePage.TestPageElement -->
+      <class name="dataBaseSearch.TestSearchPage">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="testSearchPage"/>
+        </methods>
+      </class> <!-- dataBaseSearch.TestSearchPage -->
+      <class name="EBayMotorsPage.TestEBayMotors">
+        <methods>
+          <include name="testViewExotic"/>
+          <include name="testViewSendSuggestion"/>
+          <include name="testViewVehiclesSalesHub"/>
+          <include name="testViewMotorCycle"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testViewDigitalManual"/>
+          <include name="ViewElectricHybrid"/>
+          <include name="testViewAllParts"/>
+          <include name="testViewBoat"/>
+          <include name="extentSetup"/>
+          <include name="testViewCarTruckParts"/>
+          <include name="testViewOther"/>
+          <include name="testViewClassic"/>
+          <include name="testViewMotorsSalesEvents"/>
+          <include name="testViewWheelParts"/>
+          <include name="testViewCollectorCar"/>
+          <include name="testViewCommercialTruckParts"/>
+          <include name="setUp"/>
+          <include name="testViewPowerSport"/>
+          <include name="testViewBlog"/>
+          <include name="testViewSellParts"/>
+          <include name="testViewMotorsDailyDeals"/>
+          <include name="testViewPartsHub"/>
+          <include name="testViewShipTires"/>
+          <include name="testViewVirtualTech"/>
+          <include name="testViewCarCare"/>
+          <include name="startExtent"/>
+          <include name="testViewFindParts"/>
+          <include name="testViewAtvUtvParts"/>
+          <include name="testViewTellWhatYouThink"/>
+          <include name="testViewSellVehicle"/>
+          <include name="generateReport"/>
+          <include name="testViewCarTruck"/>
+          <include name="testViewMotorCycleParts"/>
+          <include name="testViewAutoMativeToolSupply"/>
+        </methods>
+      </class> <!-- EBayMotorsPage.TestEBayMotors -->
+      <class name="HomePage.TestRegisterUser">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="testGoogleContinueButton"/>
+          <include name="extentSetup"/>
+          <include name="testCreateAccount"/>
+          <include name="testViewRegister"/>
+          <include name="setUp"/>
+          <include name="testFacebookContinueButton"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- HomePage.TestRegisterUser -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
